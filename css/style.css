@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgb(2,211,254), rgb(1,52,59));
+    padding-top: 7rem;
+    
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 10rem;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+hr.waves {
+    border: none;
+    margin: 0;
+    background: url(/img/wave.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 900/120;
+  }
+  
+
+section {
+    width: 70%;
+    margin: auto;
+}
+
+h2{
+    color:rgb(12,109,120);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 0px 0px 20px;
+    font-size: 22px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.align-right {
+    text-align: right;
+    padding-top:1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(0,29,36);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 8.5rem;
+    width: 100%;
+    font-size: 14px;
+}
