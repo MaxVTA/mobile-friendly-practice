@@ -5,9 +5,28 @@
 }
 
 header {
-    background-image: linear-gradient(rgb(2,211,254), rgb(1,52,59));
+    background: linear-gradient(rgb(2,211,254), rgb(1,52,59));
     padding-top: 7rem;
     
+}
+
+@media (min-width: 480px) {
+    header {
+        background: linear-gradient(rgb(40,211,254), rgb(40,52,59));
+    }
+
+}
+
+@media (min-width: 768px) {
+    header {
+    background: linear-gradient(rgb(100,211,254), rgb(100,52,59));
+    }
+}
+
+@media (min-width: 1024px) {
+    header {
+    background: linear-gradient(rgb(250,211,254), rgb(250,52,59));
+    }
 }
 
 header h1 {
